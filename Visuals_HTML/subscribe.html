@@ -21,7 +21,10 @@ h1{
 form{
 	color: red;
 	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
 }
+
 image1
 	{
 	position:fixed;
@@ -56,17 +59,17 @@ image3
 <form>
 	
 	
-	Cell Number:<br>
+	Cell Number:
 	<!--<input type="number" name="Cell">//-->
 	<INPUT id="txtChar" onkeypress="return isNumberKey(event)" type="text" name="txtChar" maxlength="10">
 	<input type="submit" value="Subscribe">
-	<br>
+	<br><br>
 	
-	Your Message:<br>
+	Your Message:
 	<input type="text" name="Message">
-	<input type="submit" value="Message">
+	<input type="submit" value="Message" maxlength="144">
 	<br>
-	
+
 <image1>
 <img src="logo1.png">
 </image1>
@@ -76,11 +79,8 @@ image3
 <image3>
 <img src="amazon1.png">
 </image3>
-
 	
 </form>
-
-
 
 </body>
 
