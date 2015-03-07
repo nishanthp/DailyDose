@@ -1,0 +1,3 @@
+http://www.cambiaresearch.com/articles/39/how-can-i-use-javascript-to-allow-only-numbers-to-be-entered-in-a-textbox
+
+http://www.colorzilla.com/gradient-editor/
