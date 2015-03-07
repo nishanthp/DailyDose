@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+</head>
+<style>
+
+	<script type="text/javascript">
+  var str1 = $("#password").val();
+  var str2 = $("#clarifyPassword").val();
+
+    if(str1 == str2)
+    {
+        $(":text").removeClass("incorrect");
+        alert("equal");    
+    }
+
+    else
+    {
+        $(":text").addClass("incorrect");
+        alert("not equal");
+    }
+
+	</script>
+
+
+body{
+	background-color: white;
+}
+h1{
+	color: green;
+	text-align: center;
+}
+form{
+	color: black;
+	text-align: center;
+}
+</style>
+<body>
+	<h1>
+		Sign up for the Daily Dose!
+	</h1>
+<form action="./submit.jsp" method="get">
+	Username:<br>
+	<input type="text" name="username" id="username">
+	
+	<br><br>
+	Password:<br>
+	<input type="password" name="password" id="password">
+	
+	<br>
+	Clarify password:<br>
+	<input type="password" name="clarifyPassword" id=clarifyPassword>
+	<br><br>
+	<input type="submit" value="Sign Up"> 
+	
+	
+
+</form>
+</body>
+
+</html>
