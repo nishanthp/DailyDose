@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Subscribe</title>
+</head>
+<style>
+body{
+	/*background-color: black;
+	background: #293f50;
+  	color: #888;//-->*/
+  	background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
+}
+h1{
+	color: red;
+	text-align: center;
+}
+form{
+	color: red;
+	text-align: center;
+	font-weight: bold;
+	font-style: cosmic sans;
+	font-size: 250%;
+
+}
+</style>
+<body>
+	<h1>
+		Daily Dose Subscribe
+	</h1>
+
+	<script src = "daily.js">
+	</script>
+
+<form>
+	
+	
+	Cell Number:<br>
+	<!--<input type="number" name="Cell">//-->
+	<INPUT id="txtChar" onkeypress="return isNumberKey(event)" type="text" name="txtChar" maxlength="10">
+	<input type="submit" value="Subscribe">
+	<br>
+	
+	Your Message:<br>
+	<input type="text" name="Message">
+	<input type="submit" value="Message">
+	<br>
+
+	<img src="logo.png">
+</img>
+	
+</form>
+
+
+
+</body>
+
+</html>
