@@ -5,7 +5,7 @@
 </head>
 <style>
 body{
-	background-color:  #293f50;
+	background-image: url('./images/ty.png');
 }
 h1{
 	color: red;
@@ -14,6 +14,9 @@ h1{
 form{
 	color: red;
 	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+
 }
 image1
 	{
@@ -40,23 +43,27 @@ image3
 </style>
 <body>
 	<h1>
-		Change your phone number
+		Change Your Phone Number
 	</h1>
-<form>
+
+	<script src = "daily.js">
+	</script>
+
+<form action="/.sign-up.jsp" method="get">
 	Enter your new phone number:<br>
 	(Your old number will no longer recieve Daily Dose texts!)<br><br>
-	<input type="text" name="New number">
+	<INPUT id="txtChar" onkeypress="return isNumberKey(event)" type="text" name="txtChar" maxlength="10">
 	<br><br>
 	<input type="submit" value="Change number">
 </form>
 <image1>
-<img src="logo1.png">
+<img src="./images/logo1.png">
 </image1>
 <image2>
-<img src="twilio1.png">
+<img src="./images/twilio1.png">
 </image2>
 <image3>
-<img src="amazon1.png">
+<img src="./images/amazon1.png">
 </image3>
 </body>
 
