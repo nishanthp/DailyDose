@@ -1,0 +1,30 @@
+
+#nav {
+
+    line-height:30px;
+    height:600px;
+    width:165px;
+    left:50px;
+    float:left;
+    padding:5px; 
+
+    font-size: 25px;         
+}
+#section {
+
+    width:1220px;
+    float:center;
+    font-family: verdana;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    height: 200px;
+   padding:5px;      
+}
+
+main{
+    text-align: center;
+}

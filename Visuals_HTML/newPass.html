@@ -5,7 +5,7 @@
 </head>
 <style>
 body{
-	background-color:  #293f50;
+	background-image: url('./images/ty.png');
 }
 h1{
 	color: red;
@@ -14,6 +14,8 @@ h1{
 form{
 	color: red;
 	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
 }
 image1
 	{
@@ -42,26 +44,30 @@ image3
 	<h1>
 		Change your password
 	</h1>
-<form>
+
+	<script type="text/javascript" src="passtest.js"></script>
+
+<form action="/.sign-up.jsp" method="get">
 	Enter your current password: 
 	<input type="password" name="Old Pass">
 	<br><br>
 	Enter your new password:
-	<input type="password" name="New Pass">
+	<input type="password" name="pass1" id="pass1">
 	<br><br>
 	Confirm your new password:
-	<input type="password" name="New Pass">
+	<input type="password" name="pass2" id="pass2" onkeyup="checkPass(); return false;">
+	<span id="confirmMessage" class="confirmMessage"></span>
 	<br><br>
 	<input type="submit" value="Change your password">
 </form>
 <image1>
-<img src="logo1.png">
+<img src="./images/logo1.png">
 </image1>
 <image2>
-<img src="twilio1.png">
+<img src="./images/twilio1.png">
 </image2>
 <image3>
-<img src="amazon1.png">
+<img src="./images/amazon1.png">
 </image3>
 </body>
 

@@ -4,21 +4,18 @@
 
 <head>
 	<title>Login</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <style>
-
 body{
 		
-		background: #293f50;
-
+		background-image: url('./images/ty.png');
 	}
-
 h1{
 		color: red;
 		text-align: center;
-
 	}
-
 form{
 	color: red;
 	text-align: center;
@@ -31,43 +28,46 @@ image1
 	bottom:40px;
 	left:50px;
 	}
-
 image2
 	{
 		position:fixed;
 		bottom:40px;
 		left:1000px;
 	}
-
-
 image3
 	{
 		position:fixed;
 		bottom:40px;
 		left:475px;
-
 	}
 </style><body>
 	<h1>
 		Daily Dose Login
 	</h1>
 
+<<<<<<< HEAD
 	<script src = "js/daily.js">
 </script>
 
 <form action="/.submitindex.jsp" method="get">
+=======
+<form action="/.index.jsp" method="get">
+>>>>>>> fc6be2fd1ceb81b79d18d700509942ed253d2334
 	Username<br>
-	<input type="text" name="username">
+	<input type="text" name="username"placeholder=username maxlength="20">
 	<br><br>
 	Password<br>
-	<input type="password" name="password">
+	<input type="password" name="password"	placeholder=password maxlength=="32">
 	<br><br>
 	<input type="submit" value="Log in">
 	<br><br>
 	Don't have an account? 
-	<a href="./Sign-up.html"?>Click here to sign up!</a>
+	<div id="signUpLink"> 
+	<a href="./signUp.html"><font color= "white" >Sign up!</font></a>
+	</div>
 </form>
 <image1>
+<<<<<<< HEAD
 <img src="images/logo1.png">
 </image1>
 <image2>
@@ -75,8 +75,19 @@ image3
 </image2>
 <image3>
 <img src="images/amazon1.png">
+=======
+<img src="./images/logo1.png">
+</image1>
+<image2>
+<img src="./images/twilio1.png">
+</image2>
+<image3>
+<img src="./images/amazon1.png">
+>>>>>>> fc6be2fd1ceb81b79d18d700509942ed253d2334
 </image3>
 
-</body>
 
+</body>
 </html>
+
+
