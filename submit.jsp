@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=US-ASCII"
 	pageEncoding="US-ASCII"%>
 <%
-	String user = request.getParameter("username");
-	String pass = request.getParameter("password");
+	String user = request.getParameter("New User");
+	String pass = request.getParameter("New Pass");
 
 %>
 
