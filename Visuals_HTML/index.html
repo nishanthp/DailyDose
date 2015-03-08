@@ -3,9 +3,8 @@
 
 
 <head>
-	<title>SignUp</title>
+	<title>Login</title>
 </head>
-
 <style>
 
 body{
@@ -48,28 +47,26 @@ image3
 		left:475px;
 
 	}
-</style>
-<body>
+</style><body>
 	<h1>
-		Sign Up
+		Daily Dose Login
 	</h1>
-	
+
 	<script src = "daily.js">
 </script>
 
-<form>
-	Username<br>	 
-	<input type="text" name="New User">
+<form action="/.submitindex.jsp" method="get">
+	Username<br>
+	<input type="text" name="username">
 	<br><br>
-	Enter Password<br>
-	<input type="password" name="New Pass">
+	Password<br>
+	<input type="password" name="password">
 	<br><br>
-	Confirm Password<br>
-	<input type="password" name="Conf Pass">
+	<input type="submit" value="Log in">
 	<br><br>
-	<input type="submit" value="Sign Up">
+	Don't have an account? 
+	<a href="./Sign-up.html"?>Click here to sign up!</a>
 </form>
-
 <image1>
 <img src="logo1.png">
 </image1>
@@ -79,7 +76,6 @@ image3
 <image3>
 <img src="amazon1.png">
 </image3>
-
 
 </body>
 
